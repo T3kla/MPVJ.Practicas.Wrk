@@ -864,11 +864,11 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Workshop.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-WorkshopEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Workshop.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-WorkshopEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2326,6 +2326,14 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AudioAnalyzer.dll",
 			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Workshop.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Workshop.pdb",
+			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AlembicImporter/Binaries/Win64/hdf5.dll",
