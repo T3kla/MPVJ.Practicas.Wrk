@@ -18,9 +18,6 @@ struct WORKSHOP_API FConver {
   int Offset;
 };
 
-/**
- *
- */
 UCLASS(BlueprintType)
 class WORKSHOP_API UConversation : public UObject {
   GENERATED_BODY()

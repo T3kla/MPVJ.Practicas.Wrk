@@ -2,7 +2,7 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-		"Workshop": "UE4Editor-Workshop.dll",
-		"WorkshopEditor": "UE4Editor-WorkshopEditor.dll"
+		"Workshop": "UE4Editor-Workshop-0011.dll",
+		"WorkshopEditor": "UE4Editor-WorkshopEditor-0011.dll"
 	}
 }

@@ -1,25 +1,26 @@
 {
-    "FileVersion": 3,
-    "EngineAssociation": "4.27",
-    "Category": "",
-    "Description": "",
-    "Modules": [
-        {
-            "Name": "Workshop",
-            "Type": "Runtime",
-            "LoadingPhase": "Default",
-            "AdditionalDependencies": [
-                "CoreUObject"
-            ]
-        },
-        {
-            "Name": "WorkshopEditor",
-            "Type": "Editor",
-            "LoadingPhase": "PostEngineInit",
-            "AdditionalDependencies": [
-                "CoreUObject",
-                "UnrealEd"
-            ]
-        }
-    ]
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Workshop",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine"
+			]
+		},
+		{
+			"Name": "WorkshopEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"UnrealEd"
+			]
+		}
+	]
 }
